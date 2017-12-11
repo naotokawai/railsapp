@@ -28,3 +28,5 @@ Things you may want to cover:
 # rails-app
 # rails-app
 # railsapp1
+# railsapp1
+# test
