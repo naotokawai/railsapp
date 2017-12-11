@@ -25,3 +25,4 @@ Things you may want to cover:
 # railsapp
 # railsapp
 # railsapp
+# rails-app
