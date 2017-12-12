@@ -32,15 +32,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
-
-group :development do
-  
-  gem 'sqlite3'
-end
+gem 'sqlite3', group: :development
+# 本番ではpostgressを使用する
+gem 'pg', group: :production
 
 
 
